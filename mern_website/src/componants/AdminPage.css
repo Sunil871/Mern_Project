@@ -1,0 +1,35 @@
+/* AdminPage.css */
+.admin-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ff4500;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc3700;
+}
