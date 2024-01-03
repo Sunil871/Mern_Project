@@ -21,6 +21,8 @@ const Navbar = () => {
         </div>
         <div className="user-actions">
           <a href="/account">My Account</a>
+          <Link to="/login">Login</Link>
+          <Link to="/signup">Signup</Link>
           <a href="/cart">
             <i className="fas fa-shopping-cart"></i> Cart
           </a>
